@@ -16,7 +16,7 @@ class App extends Component {
       lastIndex: 0,
       formDisplay: false,
       orderBy: 'petName',
-      orderDir: 'desc'
+      orderDir: 'asc'
     };
     this.deleteAppointment = this.deleteAppointment.bind(this);
     this.toggleForm = this.toggleForm.bind(this);
@@ -97,7 +97,10 @@ class App extends Component {
                     formDisplay={this.state.formDisplay}
                     toggleForm={this.toggleForm}
                     addAppointment={this.addAppointment}/>
-                  <SearchAppointments />
+                  <SearchAppointments 
+                    orderBy = {this.state.orderBy}
+                    orderDir = {this.state.orderDir}
+                  />
                   <ListAppointments appointments = {filteredApts} 
                     deleteAppointment = {this.deleteAppointment}/>
                 </div>
