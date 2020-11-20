@@ -7,6 +7,7 @@ User can perform following things in the app.
 - sort the list according to the different fields of the list,
 - search using the search field,
 - edit the appointment.
+
 Sample data in public/data.json file.
 
 # Tech used in this project
