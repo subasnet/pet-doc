@@ -12,9 +12,9 @@ Sample data in public/data.json file.
 # Tech used in this project
 - React.js, 
 - Javascript (ES6),
-- HTML,
-- CSS,
-- Third party components
+- HTML
+- CSS,
+- Third party components
     - Bootstrap
     - jQuery
     - lodash
